@@ -1,0 +1,4 @@
+sequlize db: create --> to create the database 
+sequelize model:generate --name Airplane --attributes modelNum  --> to create the model
+sequelize db: migrate  --> to migrate all the pending migrations 
+equelize db: migrate:undo --> to undo the previous migrations 
